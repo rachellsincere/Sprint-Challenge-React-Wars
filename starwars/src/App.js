@@ -37,7 +37,7 @@ class App extends Component {
 
         <div className="character-list">
           {this.state.starwarsChars.map(character => 
-            <CharComponent charType={character} />
+            <CharComponent charData={character} />
 
           )}
         </div>
